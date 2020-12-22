@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tempo para o dia selecionado</title>
+</head>
+<body>
+    <main>
+        <div class="modalDivRelogio">
+            <img src="./assets/calendario.svg" alt="Calendario" class="modalRelogio">
+        </div>
+        <div class="timeContainer">
+            <div class="segundoUl">Dias</div>
+            <div class="segundoUl">Horas</div>
+            <div class="segundoUl">Minutos</div>
+            <div class="segundoUl">Segundos</div>
+
+            <div id="dia" class="timeGeral"></div>
+            <div id="hora" class="timeGeral"></div>
+            <div id="minuto" class="timeGeral"></div>
+            <div id="segundo" class="timeGeral"></div>
+        </div>
+    </main>
+    <!--Modal-->
+    <section class="modal ativo">
+        <form action="" class="modalForm">
+            <input type="date" id="modal">
+            <input type="submit">
+        </form>
+    </section>
+    <!--ModalEnd-->
+    <script src="./script.js"></script>
+</body>
+</html>
