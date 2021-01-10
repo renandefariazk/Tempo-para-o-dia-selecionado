@@ -1,4 +1,4 @@
-# Tempora ate o dia selecionado
+# Tempo para o dia selecionado
 
 ## Como Utilizar
 
